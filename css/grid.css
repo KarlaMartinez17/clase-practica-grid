@@ -59,9 +59,18 @@ https://www.youtube.com/watch?v=uUGHF0dM6GA
 .col-12{ width:100%; }
 
 /** Primer Breakpoint de bootstrap **/
+
 @media all and (max-width:576px){
     [class *='col-'] {
        width: 100%;
     }
-}
+    .hide-on-mobile {
+      display: none;
+  }
+ }
+ @media (min-width:576px){
+    .hide-on-desktop {
+        display: none;
+    }
+ }
 /** End of Grid System **/
